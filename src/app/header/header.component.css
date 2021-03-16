@@ -1,0 +1,39 @@
+ul {
+  list-style-type: none;
+}
+
+a:hover {
+  opacity: 0.75;
+  cursor: pointer;
+}
+
+.header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  background-color:#363636;
+  color: #ffffffd8;
+  opacity: 0.9;
+  width: 100%;
+}
+
+.header-sections {
+  margin-right: 30px
+}
+
+.header-sections:first-child {
+  margin-left: 60px
+}
+
+.header-sections:last-child {
+  margin-right: 0;
+}
+
+.toolbar-section {
+  margin-right: 60px;
+}
+

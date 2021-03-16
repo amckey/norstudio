@@ -1,0 +1,9 @@
+* {
+  font-family: Lato /* Replace with your custom font */, sans-serif !important;
+  /* Add !important to overwrite all elements */
+}
+
+.body {
+  margin-top: 70px;
+}
+
