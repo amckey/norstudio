@@ -24,3 +24,15 @@ a:hover {
 .footer-sections {
   margin-right: 30px
 }
+
+.footer-sections {
+  margin-right: 30px
+}
+
+.footer-sections:first-child {
+  margin-left: 60px
+}
+
+.footer-sections:last-child {
+  margin-right: 0;
+}
