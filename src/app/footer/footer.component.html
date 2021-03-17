@@ -1,11 +1,11 @@
 <div class="footer">
 
-  <div *ngFor="let item of footerSections" class=footer-sections>
-    <ul>
-      <li>
-         <a>{{item.name}}</a>
-       </li>
-    </ul>
-</div>
+  <nav class="nav">
+      <ul>
+        <li *ngFor="let item of footerSections">
+           <a>{{item.name}}</a>
+         </li>
+      </ul>
+  </nav>
 
 </div>

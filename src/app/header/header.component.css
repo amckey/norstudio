@@ -8,27 +8,34 @@ a:hover {
 }
 
 .header {
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 0;
   right: 0;
   height: 60px;
   display: flex;
-  align-items: center;
   background-color:#363636;
   color: #ffffffd8;
-  opacity: 0.9;
+  opacity: 1;
   width: 100%;
 }
 
-.header-sections {
-  margin-right: 30px
+.nav {
+  align-items: center;
+  text-align: center;
+  display:flex;
+  margin-left: 100px;
 }
 
-.header-sections:first-child {
-  margin-left: 60px
+.nav ul {
+  margin: 0;
 }
 
-.header-sections:last-child {
-  margin-right: 0;
+.nav li {
+  display: inline;
+}
+
+.nav a {
+  padding: 1.282em 15px;
+  margin-right: 60px;
 }

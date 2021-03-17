@@ -8,10 +8,9 @@ a:hover {
 }
 
 .footer {
-  bottom: 0;
   left: 0;
   right: 0;
-  width: 100%;
+  bottom: 0;
   height: 100px;
   background-color:#363636;
   display: flex;
@@ -21,18 +20,22 @@ a:hover {
   color: #ffffffd8;
 }
 
-.footer-sections {
-  margin-right: 30px
+.nav {
+    align-items: center;
+    text-align: center;
+    display:flex;
+    margin-left: 100px;
 }
 
-.footer-sections {
-  margin-right: 30px
+.nav ul {
+  margin: 0;
 }
 
-.footer-sections:first-child {
-  margin-left: 60px
+.nav li {
+  display: inline;
 }
 
-.footer-sections:last-child {
-  margin-right: 0;
+.nav a {
+  padding: 2.532em 15px;
+  margin-right: 60px;
 }
