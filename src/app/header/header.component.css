@@ -8,7 +8,7 @@ a:hover {
 }
 
 .header {
-  position: fixed;
+  position: sticky;
   top: 0;
   left: 0;
   right: 0;
@@ -16,7 +16,7 @@ a:hover {
   display: flex;
   background-color:#363636;
   color: #ffffffd8;
-  opacity: 1;
+  opacity: 0.9;
   width: 100%;
 }
 

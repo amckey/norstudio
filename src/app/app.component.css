@@ -1,14 +1,21 @@
-.body {
-  margin: 0;
-  padding: 0;
+.content {
+  width: 100%;
+  margin: 0 auto;
+  padding: 40px 20px;
+}
+
+.header {
+  position: fixed;
+  width: 100%;
+}
+
+.page {
   overflow: hidden;
-  display:inline;
+  display: flex;
   flex-direction: column;
   min-height: 100vh;
-  margin-top: auto;
-  position: relative;
 }
 
-.body-container {
+.footer {
+  margin-top: auto
 }
-
