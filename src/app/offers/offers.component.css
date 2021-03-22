@@ -1,0 +1,28 @@
+.container {
+  display: block;
+  width: 100%;
+  max-height: 1000px;
+  background-color:whitesmoke;
+  color: rgba(20, 22, 44, 0.90);
+}
+
+.container-intro {
+  text-align: center;
+  line-height: 3em;
+  padding-top: 50px;
+}
+
+.container-inner-block {
+  display: flex;
+  justify-content: center;
+}
+
+.container-inner-block-content {
+  margin: 50px 50px 100px 50px;
+  width: 400px;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  border: 2px solid rgba(41, 41, 41, 0.15);
+  border-radius: 5px;
+}

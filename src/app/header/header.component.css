@@ -2,8 +2,12 @@ ul {
   list-style-type: none;
 }
 
+a {
+  opacity: 0.8;
+}
+
 a:hover {
-  opacity: 0.75;
+  opacity: 1;
   cursor: pointer;
 }
 
@@ -14,10 +18,8 @@ a:hover {
   right: 0;
   height: 60px;
   display: flex;
-  background-color:#363636;
-  color: #ffffffd8;
-  opacity: 0.9;
   width: 100%;
+  background-color: rgba(21, 23, 46, 0.5);
 }
 
 .nav {
