@@ -5,6 +5,7 @@ ul {
 a {
   opacity: 0.8;
   text-decoration: none;
+  color: whitesmoke;
 }
 
 a:hover {
