@@ -17,6 +17,14 @@
   justify-content: center;
 }
 
+.intro-title {
+  font-size: 30pt;
+}
+
+.intro-subtitle {
+  font-size: 15pt;
+}
+
 .container-inner-block-content {
   margin: 50px 50px 15px 50px;
   width: 400px;

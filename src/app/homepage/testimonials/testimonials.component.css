@@ -4,6 +4,13 @@
 
 ::ng-deep .mat-tab-label {
   color: white;
+  background-color:whitesmoke;
+  margin-right: 25px;
+  margin-left: 25px;
+  margin-bottom: 30px;
+  height: 5px !important;
+  min-width: 1px !important;
+  width: 15px !important;
 }
 
 ::ng-deep .mat-tab {
@@ -13,17 +20,38 @@
 
 .container {
   background-color: rgba(20, 22, 44, 0.95);
+  justify-content: center;
 }
 
-.container-title {
+.container-intro {
   text-align: center;
+  line-height: 3em;
   padding-top: 50px;
-  
+}
+
+.intro-title {
+  font-size: 30pt;
+}
+
+.intro-subtitle {
+  font-size: 15pt;
 }
 
 .review {
   display: flex;
   justify-content: center;
-  align-items: center;
-  height: 150px;
+  margin-top: 40px;
+}
+
+.review-block {
+  width: 550px;
+  height: 250px;
+  text-align: center;
+  font-size: 14pt;
+  color: orange
+}
+
+.review-sign {
+  color: whitesmoke;
+  margin-top: 20px;
 }
