@@ -1,0 +1,29 @@
+::ng-deep .mat-tab-group {
+  border: none;
+}
+
+::ng-deep .mat-tab-label {
+  color: white;
+}
+
+::ng-deep .mat-tab {
+  border: none;
+  max-width: 50px;
+}
+
+.container {
+  background-color: rgba(20, 22, 44, 0.95);
+}
+
+.container-title {
+  text-align: center;
+  padding-top: 50px;
+  
+}
+
+.review {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 150px;
+}

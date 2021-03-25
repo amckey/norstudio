@@ -4,7 +4,6 @@ ul {
 
 a {
   opacity: 0.8;
-  text-decoration: none;
   color: whitesmoke;
 }
 
@@ -20,15 +19,22 @@ a:hover {
   right: 0;
   height: 60px;
   display: flex;
+  justify-content: space-between;
   width: 100%;
-  background-color: rgba(21, 23, 46, 0.5);
+  background-color: rgba(21, 23, 46, 0.8);
+}
+
+.header-inner {
+  display: flex;
+  align-items: center;
+  margin-left: 100px;
+  font-size: 20pt;
+  letter-spacing: 7px;
 }
 
 .nav {
   align-items: center;
-  text-align: center;
   display:flex;
-  margin-left: 100px;
 }
 
 .nav ul {
@@ -37,9 +43,13 @@ a:hover {
 
 .nav li {
   display: inline;
+  margin-right: 60px;
 }
 
 .nav a {
   padding: 1.282em 15px;
-  margin-right: 60px;
+}
+
+li:last-child {
+  margin-right: 0;
 }

@@ -13,7 +13,11 @@ import { IntroductionComponent } from './homepage/introduction/introduction.comp
 import { OffersComponent } from './homepage/offers/offers.component';
 import { PortfolioComponent } from './portfolio/portfolio.component';
 import { ContactsComponent } from './contacts/contacts.component';
-import { AboutComponent } from './about/about.component'
+import { AboutComponent } from './about/about.component';
+import { TestimonialsComponent } from './homepage/testimonials/testimonials.component'
+import {MatIconModule} from '@angular/material/icon';
+
+
 
 @NgModule({
   declarations: [
@@ -28,12 +32,14 @@ import { AboutComponent } from './about/about.component'
     PortfolioComponent,
     ContactsComponent,
     AboutComponent,
+    TestimonialsComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
     MatTabsModule,
+    MatIconModule,
     RouterModule,
     RouterModule.forRoot([
       {path: '', component: HomepageComponent},
