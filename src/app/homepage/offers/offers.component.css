@@ -18,11 +18,19 @@
 }
 
 .container-inner-block-content {
-  margin: 50px 50px 100px 50px;
+  margin: 50px 50px 15px 50px;
   width: 400px;
   height: 400px;
   display: flex;
   justify-content: center;
   border: 2px solid rgba(41, 41, 41, 0.15);
   border-radius: 5px;
+}
+
+.component-button {
+  background-color: rgba(20, 22, 44, 0.95);
+  color: whitesmoke;
+  font-size: 13pt;
+  opacity: 0.9;
+  margin-bottom: 30px;
 }

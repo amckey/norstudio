@@ -17,6 +17,11 @@
   line-height: 1.4em;
 }
 
-
+.component-button {
+  background-color: whitesmoke;
+  margin-top: 30px;
+  font-size: 13pt;
+  opacity: 0.9;
+}
 
 

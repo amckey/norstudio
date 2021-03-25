@@ -19,14 +19,18 @@ h1, h2, h3, ul, li, a {
   padding: 0;
 }
 
+a:visited { text-decoration: none; color:whitesmoke; }
+a:hover { text-decoration: none; color:whitesmoke; }
+a:focus { text-decoration: none; color:whitesmoke; }
+a:active { text-decoration: none; color:whitesmoke }
+
 * {
   font-family: Lato /* Replace with your custom font */, sans-serif !important;
   /* Add !important to overwrite all elements */
   box-sizing: border-box;
 }
 
-.button {
-  background-color: whitesmoke;
+#button {
   width: 150px;
   height: 40px;
   border: none;
@@ -34,12 +38,20 @@ h1, h2, h3, ul, li, a {
   display: inline-block;
   border-radius: 12px;
   outline: none;
-  margin-top: 30px;
-  font-size: 13pt;
-  opacity: 0.9;
+  box-shadow: 0 1px 3px rgb(20 50 0 / 15%);
+  transform: translateY(0px);
+  transition-duration: 0.2s;
 }
 
-.button:hover {
- opacity: 1;
+#button:hover {
  cursor: pointer;
+ transform: translateY(-4px);
+ transition-duration: 0.2s;
 }
+
+#button:active {
+ opacity: 1;
+}
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
