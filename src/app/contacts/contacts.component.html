@@ -1,7 +1,37 @@
 <div class="container">
 
+  <div class=container-intro>
+    <p class=intro-title>Get in touch with us</p>
+  </div>
+
   <div class="container-inner">
-    <div class="container-content">Contact us</div>
+
+    <iframe
+    name="hidden_iframe"
+    id="hidden_iframe"
+    style="display:none;"
+    onload="if(submitted) {window.location='contacts';}">
+    </iframe>
+
+    <form action="https://docs.google.com/forms/d/e/1FAIpQLScwkjxYT5SHun7IoMghh96OdoSWs8i_wbXoQTRLrkaleTLajw/formResponse"
+    method="post"
+    target="hidden_iframe"
+    onsubmit="submitted=true;">
+        <div class=container-inner-content>
+          <input class=component-input type="text" placeholder="Name*" name="entry.2005620554" required>
+        </div>
+
+        <div class=container-inner-content>
+          <input class=component-input type="email" placeholder="Email address*" name="entry.1045781291" required>
+        </div>
+
+        <div class=container-inner-content>
+          <textarea class=component-input rows="10" placeholder="Message*" name="entry.839337160" required></textarea>
+        </div>
+        <div class=component-inner-button>
+          <button class=component-button type="submit" id="button">Send</button>
+        </div>
+  </form>
   </div>
 
 </div>

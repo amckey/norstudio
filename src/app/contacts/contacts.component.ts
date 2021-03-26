@@ -12,4 +12,9 @@ export class ContactsComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  lol = false;
+
+  check() {
+    this.lol = true;
+  }
 }
