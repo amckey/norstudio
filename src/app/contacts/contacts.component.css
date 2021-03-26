@@ -5,17 +5,21 @@
 }
 
 .container-intro {
-  padding-top: 150px;
-  display: flex;
-  justify-content: center;
+  padding-top: 120px;
+  text-align: center;
+  line-height: 3em;
 }
 
 .intro-title {
   font-size: 30pt;
 }
 
+.intro-subtitle {
+  font-size: 15pt;
+}
+
 .container-inner {
-  margin-top: 50px;
+  margin-top: 40px;
   width: 100%;
   display: flex;
   align-items: center;
