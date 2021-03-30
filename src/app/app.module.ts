@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import { HttpClientModule } from '@angular/common/http';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
@@ -16,6 +17,7 @@ import { ContactsComponent } from './contacts/contacts.component';
 import { AboutComponent } from './about/about.component';
 import { TestimonialsComponent } from './homepage/testimonials/testimonials.component'
 import {MatIconModule} from '@angular/material/icon';
+import { PeopleService } from './people.service'
 
 
 
@@ -36,6 +38,7 @@ import {MatIconModule} from '@angular/material/icon';
   ],
   imports: [
     BrowserModule,
+    HttpClientModule,
     AppRoutingModule,
     BrowserAnimationsModule,
     MatTabsModule,
@@ -50,7 +53,7 @@ import {MatIconModule} from '@angular/material/icon';
       {path: '**', component: HomepageComponent},
         ]),
   ],
-  providers: [],
+  providers: [PeopleService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
