@@ -3,12 +3,12 @@ ul {
 }
 
 a {
-  opacity: 0.8;
+  opacity: 1;
   color: whitesmoke;
 }
 
 a:hover {
-  opacity: 1;
+  opacity: 0.8;
   cursor: pointer;
 }
 
@@ -37,19 +37,48 @@ a:hover {
   display:flex;
 }
 
-.nav ul {
-  margin: 0;
-}
-
 .nav li {
   display: inline;
   margin-right: 60px;
 }
 
 .nav a {
-  padding: 1.282em 15px;
+  padding: 22px 15px;
 }
 
 li:last-child {
   margin-right: 0;
+}
+
+.dropbtn {
+  display: inline;
+}
+
+.dropdown {
+  display: inline;
+}
+
+.dropdown-content {
+  display: none;
+  margin-top: 20px;
+  position: absolute;
+  background-color: whitesmoke;
+  min-width: 230px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #ddd;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn a {
+  opacity: 0.8;
 }

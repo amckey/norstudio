@@ -16,10 +16,7 @@ import { PortfolioComponent } from './portfolio/portfolio.component';
 import { ContactsComponent } from './contacts/contacts.component';
 import { AboutComponent } from './about/about.component';
 import { TestimonialsComponent } from './homepage/testimonials/testimonials.component'
-import {MatIconModule} from '@angular/material/icon';
-import { PeopleService } from './people.service'
-
-
+import { MatIconModule } from '@angular/material/icon';
 
 @NgModule({
   declarations: [
@@ -51,9 +48,10 @@ import { PeopleService } from './people.service'
       {path: 'portfolio', component: PortfolioComponent},
       {path: 'contacts', component: ContactsComponent},
       {path: '**', component: HomepageComponent},
-        ]),
+       ],
+       {anchorScrolling: 'enabled', onSameUrlNavigation: 'reload'})
   ],
-  providers: [PeopleService],
+  providers: [],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

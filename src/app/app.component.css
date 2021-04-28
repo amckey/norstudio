@@ -1,3 +1,11 @@
+.page {
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  z-index: 1;
+}
+
 .container {
   width: 100%;
   margin: 0 auto;
@@ -7,14 +15,6 @@
   position: fixed;
   width: 100%;
   z-index: 2;
-}
-
-.page {
-  overflow: hidden;
-  display: flex;
-  flex-direction: column;
-  min-height: 100vh;
-  z-index: 1;
 }
 
 .footer {
