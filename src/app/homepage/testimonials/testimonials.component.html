@@ -6,11 +6,27 @@
 </div>
 
 <div class="review">
-  <a (click)="showPrevSlide()"><</a>
-  <ng-container *ngFor="let review of reviews, let i = index">
-    <div *ngIf="currentSlideIndex === i" @carouselAnimation class=slide>{{review.content}}</div>
-  </ng-container>
-  <a (click)="showNextSlide()">></a>
+
+  <div class=review-block>
+    <img src="./../../../assets/left_arrow.svg" (click)="showPrevSlide()" class=slide-button>
+  </div>
+
+  <div class=review-block>
+    <ng-container *ngFor="let review of reviews, let i = index">
+      <div *ngIf="currentSlideIndex === i" @carouselAnimation class=slide>{{review.content}}</div>
+    </ng-container>
+  </div>
+
+  <div class=review-block>
+    <img src="./../../../assets/right_arrow.svg" (click)="showNextSlide()" class=slide-button>
+  </div>
+
+</div>
+
+<div class=pagination-dots>
+  <div *ngFor="let review of reviews let i = index;">
+    <div [ngClass]="calculateDotClass(i)"></div>
+  </div>
 </div>
 
 </div>
