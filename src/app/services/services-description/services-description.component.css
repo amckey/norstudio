@@ -1,0 +1,36 @@
+.container {
+  background-color: whitesmoke;
+  color: rgba(20, 22, 44, 0.90);
+}
+
+.container-title {
+  padding-top: 80px;
+  text-align: center;
+  height: 200px;
+  font-size: 30pt;
+}
+
+.container-inner {
+  min-height: 275px;
+  margin-left: 100px;
+  max-width: 50%;
+}
+
+.container-inner-title {
+  margin-bottom: 50px;
+  font-size: 18pt;
+  font-weight: bold;
+}
+
+.container-inner-content {
+  font-size: 14pt;
+  color: rgb(61, 65, 109);
+}
+
+.anchor{
+  position: relative;
+  top: -100px;
+  left: 0;
+  width: 0px;
+  height: 0px;
+}

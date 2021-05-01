@@ -17,6 +17,8 @@ import { ContactsComponent } from './contacts/contacts.component';
 import { AboutComponent } from './about/about.component';
 import { TestimonialsComponent } from './homepage/testimonials/testimonials.component'
 import { MatIconModule } from '@angular/material/icon';
+import { ServicesIntroductionComponent } from './services/services-introduction/services-introduction.component';
+import { ServicesDescriptionComponent } from './services/services-description/services-description.component';
 
 @NgModule({
   declarations: [
@@ -32,6 +34,8 @@ import { MatIconModule } from '@angular/material/icon';
     ContactsComponent,
     AboutComponent,
     TestimonialsComponent,
+    ServicesIntroductionComponent,
+    ServicesDescriptionComponent,
   ],
   imports: [
     BrowserModule,
