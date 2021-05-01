@@ -31,8 +31,10 @@
 }
 
 .component-button {
+  width: 300px !important;
+  height: 50px !important;
   background-color: white;
-  font-size: 13pt;
+  font-size: 18pt;
 }
 
 .component-button:hover {

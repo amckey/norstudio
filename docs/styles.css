@@ -43,7 +43,7 @@ a:active { text-decoration: none; color:whitesmoke }
   border: none;
   text-decoration: none;
   display: inline-block;
-  border-radius: 12px;
+  border-radius: 20px;
   outline: none;
   box-shadow: 0 1px 3px rgb(20 50 0 / 15%);
   transform: translateY(0px);
