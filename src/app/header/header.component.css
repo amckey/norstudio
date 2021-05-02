@@ -83,13 +83,9 @@ li:last-child {
 }
 
 .contact-button {
-  background-color: whitesmoke;
+  background-color: white;
   padding-top: 10px !important;
   padding-bottom: 10px !important;
   border-radius: 20px;
   color: rgba(20, 22, 44, 0.95);
-}
-
-.contact-button:active {
-  opacity: 1;
 }

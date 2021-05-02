@@ -10,15 +10,17 @@ import {MatTabsModule} from '@angular/material/tabs';
 import { RouterModule } from '@angular/router';
 import { HomepageComponent } from './homepage/homepage.component';
 import { ServicesComponent } from './services/services.component';
-import { IntroductionComponent } from './homepage/introduction/introduction.component';
-import { OffersComponent } from './homepage/offers/offers.component';
+import { IntroductionComponent } from './homepage/homepage-introduction/introduction.component';
+import { OffersComponent } from './homepage/homepage-services/services.component';
 import { PortfolioComponent } from './portfolio/portfolio.component';
 import { ContactsComponent } from './contacts/contacts.component';
 import { AboutComponent } from './about/about.component';
-import { TestimonialsComponent } from './homepage/testimonials/testimonials.component'
+import { TestimonialsComponent } from './homepage/homepage-testimonials/testimonials.component'
 import { MatIconModule } from '@angular/material/icon';
-import { ServicesIntroductionComponent } from './services/services-introduction/services-introduction.component';
-import { ServicesDescriptionComponent } from './services/services-description/services-description.component';
+import { AboutIntroductionComponent } from './about/about-introduction/about-introduction.component';
+import { AboutDescriptionComponent } from './about/about-description/about-description.component';
+import { AboutTestimonialsComponent } from './about/about-testimonials/about-testimonials.component';
+import { HomepageTrustComponent } from './homepage/homepage-trust/homepage-trust.component';
 
 @NgModule({
   declarations: [
@@ -34,8 +36,10 @@ import { ServicesDescriptionComponent } from './services/services-description/se
     ContactsComponent,
     AboutComponent,
     TestimonialsComponent,
-    ServicesIntroductionComponent,
-    ServicesDescriptionComponent,
+    AboutIntroductionComponent,
+    AboutDescriptionComponent,
+    AboutTestimonialsComponent,
+    HomepageTrustComponent,
   ],
   imports: [
     BrowserModule,

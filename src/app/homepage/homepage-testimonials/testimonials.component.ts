@@ -3,7 +3,7 @@ import { trigger, state, style, animate, transition } from '@angular/animations'
 
 
 @Component({
-  selector: 'app-testimonials',
+  selector: 'app-homepage-testimonials',
   templateUrl: './testimonials.component.html',
   styleUrls: ['./testimonials.component.css'],
   animations: [

@@ -1,34 +1,6 @@
-::ng-deep .mat-tab-group {
-  border: none;
-}
-
-::ng-deep .mat-tab-header {
-  border: none !important;
-}
-
-::ng-deep .mat-ink-bar {
-  background-color: transparent !important;
-}
-
-::ng-deep .mat-tab-label {
-  color: white;
-  background-color:whitesmoke;
-  margin-right: 25px;
-  margin-left: 25px;
-  margin-bottom: 30px;
-  min-width: 1px !important;
-  border-radius: 50%;
-  max-width: 15px !important;
-  max-height: 15px;
-}
-
-::ng-deep .mat-tab {
-  border: none;
-  max-width: 50px;
-}
-
 .container {
-  background-color: rgba(20, 22, 44, 0.95);
+  background-color: whitesmoke;
+  color: rgba(20, 22, 44, 0.95);
   justify-content: center;
 }
 
@@ -78,7 +50,7 @@
 .dot {
   height: 15px;
   width: 15px;
-  background-color: rgb(78, 78, 78);
+  background-color: rgba(20, 22, 44);
   border-radius: 50%;
   display: inline-block;
   margin: 15px;
@@ -87,7 +59,8 @@
 .highDot {
   height: 15px;
   width: 15px;
-  background-color: #bbb;
+  background-color: rgba(20, 22, 44);
+  opacity: 0.4;
   border-radius: 50%;
   display: inline-block;
   margin: 15px;

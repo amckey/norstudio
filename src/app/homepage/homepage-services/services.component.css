@@ -36,7 +36,7 @@
 }
 
 .component-button {
-  background-color: rgba(20, 22, 44, 0.95);
+  background-color: rgba(20, 22, 44, 0.95) !important;
   color: whitesmoke;
   font-size: 13pt;
   opacity: 0.9;

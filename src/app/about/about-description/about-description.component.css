@@ -11,9 +11,11 @@
 }
 
 .container-inner {
-  min-height: 275px;
+  min-height: 325px;
   margin-left: 100px;
-  max-width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .container-inner-title {
@@ -25,6 +27,18 @@
 .container-inner-content {
   font-size: 14pt;
   color: rgb(61, 65, 109);
+}
+
+.container-inner-text {
+  max-width: 50%;
+}
+
+.container-inner-image {
+  min-width: 420px;
+  height: 280px;
+  background-color: lightgrey;
+  margin-right: 150px;
+  border-radius: 10px;
 }
 
 .anchor{

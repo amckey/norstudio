@@ -44,6 +44,8 @@ a:active { text-decoration: none; color:whitesmoke }
   box-shadow: 0 1px 3px rgb(20 50 0 / 15%);
   transform: translateY(0px);
   transition-duration: 0.2s;
+  background-color: white;
+  font-size: 13pt;
 }
 
 #button:hover {
