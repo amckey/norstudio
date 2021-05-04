@@ -1,3 +1,8 @@
+img {
+  width: 90px;
+  height: 90px;
+}
+
 .container {
   display: block;
   width: 100%;
@@ -12,7 +17,7 @@
   padding-top: 50px;
 }
 
-.container-inner-block {
+.container-inner-blocks {
   display: flex;
   justify-content: center;
 }
@@ -25,14 +30,51 @@
   font-size: 15pt;
 }
 
-.container-inner-block-content {
-  margin: 50px 50px 15px 50px;
+.container-inner-block-instance {
+  margin: 50px 50px 10px 50px;
   width: 400px;
-  height: 400px;
+  height: 350px;
+  border-radius: 10px;
+  transition: 0.25s;
+}
+
+.container-inner-block-instance:hover {
+  transform: scale(1.02);
+  transition: 0.25s;
+  background-color: rgba(211, 211, 211, 0.15);
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.block-instance-content {
   display: flex;
   justify-content: center;
-  border: 2px solid rgba(41, 41, 41, 0.15);
-  border-radius: 5px;
+  text-align: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.content-image {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 130px;
+  width: 130px;
+  border-radius: 50%;
+  background-color: #dadada9f;
+}
+
+.content-title {
+  margin-top: 20px;
+  font-size: 30pt;
+  line-height: 100%;
+}
+
+.content-subtitle {
+  margin-top: 20px;
+  font-size: 15pt;
+  color: rgb(61, 65, 109);
+  width: 85%;
 }
 
 .component-button {

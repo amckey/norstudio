@@ -1,1 +1,32 @@
-<p>Testimonials block</p>
+<div class="container">
+
+  <div class="container-intro">
+    <p class="intro-title">Testimonials</p>
+    <p class="intro-subtitle">Explore what our customers say about us</p>
+  </div>
+
+  <div class="review">
+
+    <div class=review-block>
+      <img src="./assets/left_white.svg" (click)="showPrevSlide()" class=slide-button>
+    </div>
+
+    <div class=review-block>
+      <ng-container *ngFor="let review of reviews, let i = index">
+        <div *ngIf="currentSlideIndex === i" @carouselAnimation class=slide>{{review.content}}</div>
+      </ng-container>
+    </div>
+
+    <div class=review-block>
+      <img src="./assets/right_white.svg" (click)="showNextSlide()" class=slide-button>
+    </div>
+
+  </div>
+
+  <div class=pagination-dots>
+    <div *ngFor="let review of reviews let i = index;">
+      <div [ngClass]="calculateDotClass(i)"></div>
+    </div>
+  </div>
+
+  </div>

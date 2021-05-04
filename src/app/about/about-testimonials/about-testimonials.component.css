@@ -1,3 +1,76 @@
-p {
-  color: darkblue
+.container {
+  background-color: rgba(20, 22, 44, 0.95);;
+  color: whitesmoke;
+  justify-content: center;
+}
+
+.container-intro {
+  text-align: center;
+  line-height: 3em;
+  padding-top: 50px;
+}
+
+.intro-title {
+  font-size: 30pt;
+}
+
+.intro-subtitle {
+  font-size: 15pt;
+}
+
+.review {
+  min-height: 250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.review-block {
+  width: 350px;
+  height: 100%;
+  margin: 0 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 15pt;
+}
+
+.slide {
+  position: absolute;
+  max-width: 500px;
+  transition: transform 150ms cubic-bezier(0.25, 0.46, 0.45, 0.84);
+}
+
+.pagination-dots {
+  display: flex;
+  justify-content: center;
+}
+
+.dot {
+  height: 15px;
+  width: 15px;
+  background-color: rgb(100, 100, 100);
+  border-radius: 50%;
+  display: inline-block;
+  margin: 15px;
+}
+
+.highDot {
+  height: 15px;
+  width: 15px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  margin: 15px;
+}
+
+.slide-button {
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+}
+
+.slide-button:hover {
+  opacity: 0.7;
 }

@@ -37,7 +37,12 @@
   width: 250px;
   height: 250px;
   background-color: whitesmoke;
+  color:rgba(20, 22, 44, 0.95);
   transition: 0.25s;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
 }
 
 .container-inner-boxes-block:hover {
@@ -45,4 +50,27 @@
   transform: scale(1.05);
   transition: 0.25s;
   box-shadow: rgba(149, 157, 165, 0.3) 0px 15px 24px;
+}
+
+.box-content {
+  height: 100%;
+  padding-top: 25px;
+  max-width: 70%;
+}
+
+.box-content-image {
+  width: 70px;
+  height: 70px;
+}
+
+.box-content-title {
+  padding-top: 15px;
+  font-size: 30pt;
+  line-height: 100%;
+}
+
+.box-content-text {
+  padding-top: 20px;
+  font-size: 15pt;
+  line-height: 100%;
 }
