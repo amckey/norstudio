@@ -21,6 +21,10 @@ h1, h2, h3, ul, li, a {
   padding: 0;
 }
 
+div {
+  line-height: 100%;
+}
+
 a {text-decoration: none; transition: .2s;}
 a:visited { text-decoration: none; color:whitesmoke; }
 a:hover { text-decoration: none; color:whitesmoke; transition: .2s;}

@@ -20,7 +20,7 @@ export class ServicesDescriptionComponent implements OnInit {
 
   @Input() buttonClicked: any;
 
-  elem: any = '#scrollTarget'
+  elem: any = '#development'
 
   scrollToDescription() {
     document.querySelector(this.elem).scrollIntoView({ behavior: 'smooth', block: 'start' });

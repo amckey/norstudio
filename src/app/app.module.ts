@@ -67,7 +67,7 @@ import { ServicesHowitworksComponent } from './services/services-howitworks/serv
       {path: 'contacts', component: ContactsComponent},
       {path: '**', component: HomepageComponent},
        ],
-       {anchorScrolling: 'enabled', onSameUrlNavigation: 'reload'})
+       {anchorScrolling: 'enabled', onSameUrlNavigation: 'reload', scrollPositionRestoration: 'top'})
   ],
   providers: [],
   bootstrap: [AppComponent]

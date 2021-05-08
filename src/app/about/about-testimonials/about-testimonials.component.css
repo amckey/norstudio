@@ -1,6 +1,6 @@
 .container {
-  background-color: rgba(20, 22, 44, 0.95);;
-  color: whitesmoke;
+  background-color: whitesmoke;
+  color: rgba(20, 22, 44, 0.95);
   justify-content: center;
 }
 
@@ -50,7 +50,7 @@
 .dot {
   height: 15px;
   width: 15px;
-  background-color: rgb(100, 100, 100);
+  background-color: rgba(125, 128, 165, 0.95);
   border-radius: 50%;
   display: inline-block;
   margin: 15px;
@@ -59,7 +59,7 @@
 .highDot {
   height: 15px;
   width: 15px;
-  background-color: #bbb;
+  background-color: rgba(20, 22, 44, 0.95);
   border-radius: 50%;
   display: inline-block;
   margin: 15px;

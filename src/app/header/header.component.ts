@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Output, EventEmitter} from '@angular/core';
 
 @Component({
   selector: 'app-header',
@@ -11,20 +11,5 @@ export class HeaderComponent implements OnInit {
 
   ngOnInit(): void {
   }
-
-  headerSections = [
-    {
-      name: 'About us'
-    },
-    {
-      name: 'Services'
-    },
-    {
-      name: 'Portfolio'
-    },
-    {
-      name: 'Contact us'
-    },
-  ]
 
 }
