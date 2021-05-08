@@ -21,6 +21,10 @@ import { AboutIntroductionComponent } from './about/about-introduction/about-int
 import { AboutDescriptionComponent } from './about/about-description/about-description.component';
 import { AboutTestimonialsComponent } from './about/about-testimonials/about-testimonials.component';
 import { HomepageTrustComponent } from './homepage/homepage-trust/homepage-trust.component';
+import { ServicesIntroductionComponent } from './services/services-introduction/services-introduction.component';
+import { ServicesDescriptionComponent } from './services/services-description/services-description.component';
+import { ServicesWhyusComponent } from './services/services-whyus/services-whyus.component';
+import { ServicesHowitworksComponent } from './services/services-howitworks/services-howitworks.component';
 
 @NgModule({
   declarations: [
@@ -40,6 +44,10 @@ import { HomepageTrustComponent } from './homepage/homepage-trust/homepage-trust
     AboutDescriptionComponent,
     AboutTestimonialsComponent,
     HomepageTrustComponent,
+    ServicesIntroductionComponent,
+    ServicesDescriptionComponent,
+    ServicesWhyusComponent,
+    ServicesHowitworksComponent,
   ],
   imports: [
     BrowserModule,
@@ -52,7 +60,9 @@ import { HomepageTrustComponent } from './homepage/homepage-trust/homepage-trust
     RouterModule.forRoot([
       {path: '', component: HomepageComponent},
       {path: 'about', component: AboutComponent},
-      {path: 'services', component: ServicesComponent},
+      {path: 'services', component: ServicesComponent, children: [
+        {path: 'development', component: ServicesDescriptionComponent}
+      ]},
       {path: 'portfolio', component: PortfolioComponent},
       {path: 'contacts', component: ContactsComponent},
       {path: '**', component: HomepageComponent},

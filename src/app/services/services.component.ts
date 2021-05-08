@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Output, EventEmitter, Input } from '@angular/core';
 
 @Component({
   selector: 'app-services',
@@ -12,4 +12,9 @@ export class ServicesComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  buttonClicked: any;;
+
+  receiveData() {
+    this.buttonClicked = !this.buttonClicked;
+  }
 }

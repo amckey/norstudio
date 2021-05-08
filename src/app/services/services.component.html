@@ -1,7 +1,4 @@
-<div class="container">
-
-  <div class="container-inner">
-    <div class="container-content">Services</div>
-  </div>
-
-</div>
+<app-services-introduction (buttonClicked)="receiveData()"></app-services-introduction>
+<app-services-description [buttonClicked]="buttonClicked"></app-services-description>
+<app-services-whyus></app-services-whyus>
+<app-services-howitworks></app-services-howitworks>
