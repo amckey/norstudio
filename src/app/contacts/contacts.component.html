@@ -10,14 +10,13 @@
     <iframe
     name="hidden_iframe"
     id="hidden_iframe"
-    style="display:none;"
-    onload="if(submitted) {window.location='';}">
+    style="display:none;">
     </iframe>
 
     <form action="https://docs.google.com/forms/d/e/1FAIpQLScwkjxYT5SHun7IoMghh96OdoSWs8i_wbXoQTRLrkaleTLajw/formResponse"
     method="post"
     target="hidden_iframe"
-    onsubmit="submitted=true;">
+    (submit)="submitForm()">
         <div class=container-inner-content>
           <input class=component-input type="text" placeholder="Name*" name="entry.2005620554" required>
         </div>
@@ -35,4 +34,12 @@
   </form>
   </div>
 
+</div>
+
+<div class=modal *ngIf="modalOpeneded" (click)="processClickOutside()">
+  <div class=modal-content (mouseleave)="detectModalMouseLeave()" (mouseenter)="detectModalMouseEnter()">
+    <div class="close-container">
+        <img (click)="refreshComponent()" class=close-button src="./assets/cross.svg">
+    </div>
+  </div>
 </div>
