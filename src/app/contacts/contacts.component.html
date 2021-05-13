@@ -1,8 +1,7 @@
 <div class="container">
 
   <div class=container-intro>
-    <p class=intro-title>Get in touch with us</p>
-    <p class=intro-subtitle>There's always an opportunity to find a solution for something, contact us and we'll find one for you.</p>
+    <p class=intro-title>Skriv hva du ønsker så kontakter vi deg</p>
   </div>
 
   <div class="container-inner">
@@ -18,15 +17,15 @@
     target="hidden_iframe"
     (submit)="submitForm()">
         <div class=container-inner-content>
-          <input class=component-input type="text" placeholder="Name*" name="entry.2005620554" required>
+          <input class=component-input type="text" placeholder="Ditt navn*" name="entry.2005620554" required>
         </div>
 
         <div class=container-inner-content>
-          <input class=component-input type="email" placeholder="Email address*" name="entry.1045781291" required>
+          <input class=component-input type="email" placeholder="E-post*" name="entry.1045781291" required>
         </div>
 
         <div class=container-inner-content>
-          <textarea class=component-input rows="10" placeholder="Message*" name="entry.839337160" required></textarea>
+          <textarea class=component-input rows="10" placeholder="Beskriv hva du er på jakt etter så snakker vi nærmere om det på telefon*" name="entry.839337160" required></textarea>
         </div>
         <div class=component-inner-button>
           <button class=component-button type="submit" id="button">Send</button>
@@ -38,8 +37,17 @@
 
 <div class=modal *ngIf="modalOpeneded" (click)="processClickOutside()">
   <div class=modal-content (mouseleave)="detectModalMouseLeave()" (mouseenter)="detectModalMouseEnter()">
-    <div class="close-container">
+    <div class="close-button-element">
         <img (click)="refreshComponent()" class=close-button src="./assets/cross.svg">
+    </div>
+    <div class=close-container>
+      <div class=close-container-image>
+        <img class=close-container-image src="./assets/postimage.svg">
+      </div>
+      <div class=close-container-text>
+        <div class=close-container-text-title>Takk for din melding!</div>
+        <div class=close-container-text-subtitle>Vi tar kontakt med deg i løpet av neste 12 timer.</div>
+      </div>
     </div>
   </div>
 </div>
