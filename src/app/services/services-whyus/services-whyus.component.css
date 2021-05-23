@@ -40,6 +40,12 @@
 .box {
   border-radius: 5px;
   padding: 20px;
+  transition: 0.25s;
+}
+
+.box:hover {
+    transform: scale(1.03);
+    transition: 0.25s;
 }
 
 .box-title {
@@ -53,6 +59,12 @@
   width: 23px;
   height: 23px;
   border-radius: 50%;
+  transition: 0.25s;
+}
+
+.box:hover .box-title-image {
+  transition: 0.25s;
+  background-color: rgb(255, 25, 25);
 }
 
 .box-title-text {

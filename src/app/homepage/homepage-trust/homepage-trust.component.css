@@ -55,7 +55,6 @@
 .box-content {
   height: 100%;
   padding-top: 25px;
-  max-width: 75%;
 }
 
 .box-content-image {
@@ -65,7 +64,7 @@
 
 .box-content-title {
   padding-top: 15px;
-  font-size: 30pt;
+  font-size: 28pt;
   line-height: 100%;
 }
 
@@ -73,4 +72,5 @@
   padding-top: 20px;
   font-size: 15pt;
   line-height: 100%;
+  padding: 15px 20px;
 }

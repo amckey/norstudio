@@ -40,6 +40,12 @@
   justify-content: center;
   border-radius: 10px;
   background-color: rgba(211, 211, 211, 0.15);
+  transition: 0.25s;
+}
+
+.container-inner-content:hover {
+  transform: scale(1.03);
+  transition: 0.25s;
 }
 
 .container-inner-plus-content {
