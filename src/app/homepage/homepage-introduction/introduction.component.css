@@ -1,7 +1,7 @@
 .container {
   height: 80vh;
-  background-color: rgba(20, 22, 44, 0.95);
-  color: whitesmoke;
+  background-color: #dbf6e9;
+  color: #31326f;
 }
 
 .container-inner-title {
@@ -21,7 +21,6 @@
   margin-top: 50px;
   text-align: center;
   font-size: 15pt;
-  color: rgb(220, 220, 220)
 }
 
 .container-inner-button {
@@ -33,7 +32,7 @@
 .component-button {
   width: 300px !important;
   height: 50px !important;
-  background-color: white;
+  background-color: #9ddfd3 !important;
   font-size: 18pt;
 }
 

@@ -1,7 +1,8 @@
 .container {
   width: 100%;
   height: 100%;
-  background-color: rgba(20, 22, 44, 0.95);
+  background-color: #dbf6e9;
+  color: #31326f;
 }
 
 .container-intro {
@@ -38,6 +39,7 @@
 .component-input {
   border-radius: 5px;
   background-color: whitesmoke;
+  color: #31326f;
   width: 100%;
   min-height: 40px;
   max-height: 300px;
@@ -55,6 +57,10 @@
   display: flex;
   justify-content: center;
   margin: 50px 0;
+}
+
+.component-button {
+  background-color: #9ddfd3 !important;
 }
 
 .component-button:hover {
@@ -91,10 +97,10 @@
 }
 
 .modal-content {
-  background-color: rgb(230, 230, 230);
+  background-color: #dbf6e9;
   width: 700px;
   height: 400px;
-  border-radius: 10px;
+  border-radius: 15px;
 }
 
 .close-button-element {
@@ -117,7 +123,8 @@
 }
 
 .close-container {
-  color: rgba(20, 22, 44, 0.95);
+  background-color: #dbf6e9;
+  color: #31326f;
   margin-top: 20px;
   width: 100%;
   height: 100%;
@@ -125,6 +132,7 @@
   flex-direction: column;
   align-items: center;
   text-align: center;
+  border-radius: 15px;
 }
 
 .close-container-image {

@@ -1,6 +1,6 @@
 .container {
-  background-color: whitesmoke;
-  color: rgba(20, 22, 44, 0.95);
+  background-color: #9ddfd3;
+  color: #31326f;
   justify-content: center;
 }
 
@@ -59,7 +59,7 @@
 .highDot {
   height: 15px;
   width: 15px;
-  background-color: rgba(20, 22, 44, 0.95);
+  background-color: #31326f;
   border-radius: 50%;
   display: inline-block;
   margin: 15px;

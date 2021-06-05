@@ -1,7 +1,7 @@
 .container {
   width: 100%;
-  background-color: whitesmoke;
-  color: rgba(20, 22, 44, 0.95);
+  background-color: #9ddfd3;
+  color: #31326f;
 }
 
 .container-inner {
@@ -66,7 +66,7 @@
   font-size: 30pt;
   height: 100px;
   width: 100px;
-  background-color: rgba(211, 211, 211, 0.6);
+  background-color: #dbf6e9;
   border-radius: 50%;
 }
 
@@ -90,7 +90,7 @@
   left: 0;
   bottom: -10px;
   width: 100%;
-  border-top: 3px solid #7F87F1;
+  border-top: 3px solid #dbf6e9;
 }
 
 .container-inner-content-subtitle {
@@ -99,8 +99,7 @@
 }
 
 .component-button {
-  background-color: rgba(20, 22, 44, 0.95) !important;
-  color: whitesmoke;
+  background-color: #dbf6e9 !important;
   font-size: 13pt;
   opacity: 0.9;
   margin: 50px;

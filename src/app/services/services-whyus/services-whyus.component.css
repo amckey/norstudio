@@ -1,8 +1,8 @@
 .container {
   width: 100%;
   height: 100%;
-  background-color: rgba(20, 22, 44, 0.95);
-  color: whitesmoke;
+  background-color: #dbf6e9;
+  color: #31326f;
 }
 
 .container-title {
@@ -44,7 +44,7 @@
 }
 
 .box:hover {
-    transform: scale(1.03);
+    transform: scale(1.02);
     transition: 0.25s;
 }
 
@@ -53,18 +53,18 @@
   align-items: center;
 }
 
-.box-title-image {
+.box-title-dot {
   margin-right: 20px;
-  background-color: #7F87F1;
+  background-color: #31326f;
   width: 23px;
   height: 23px;
   border-radius: 50%;
   transition: 0.25s;
 }
 
-.box:hover .box-title-image {
+.box:hover .box-title-dot {
   transition: 0.25s;
-  background-color: rgb(255, 25, 25);
+  background-color: #ffc93c
 }
 
 .box-title-text {
