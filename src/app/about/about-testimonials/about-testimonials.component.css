@@ -1,6 +1,6 @@
 .container {
-  background-color: #9ddfd3;
-  color: #31326f;
+  background-color: whitesmoke;
+  color: #114347;
   justify-content: center;
 }
 
@@ -50,7 +50,7 @@
 .dot {
   height: 15px;
   width: 15px;
-  background-color: rgba(125, 128, 165, 0.95);
+  background-color: #297C86;
   border-radius: 50%;
   display: inline-block;
   margin: 15px;
@@ -59,7 +59,7 @@
 .highDot {
   height: 15px;
   width: 15px;
-  background-color: #31326f;
+  background-color: #114347;
   border-radius: 50%;
   display: inline-block;
   margin: 15px;

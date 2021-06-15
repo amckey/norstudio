@@ -3,7 +3,7 @@ ul {
 }
 
 a {
-  color: #31326f;
+  color: whitesmoke;
 }
 
 a:hover {
@@ -14,7 +14,7 @@ a:hover {
 .footer {
   width: 100%;
   height: 150px;
-  background-color:#66cab7;
+  background-color:#114347;
 }
 
 .footer-container {
@@ -42,7 +42,7 @@ a:hover {
 }
 
 .image {
-  width: 30px;
+  width: auto;
   height: 30px;
   margin-right: 10px;
 }

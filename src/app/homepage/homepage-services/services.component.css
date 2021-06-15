@@ -7,8 +7,8 @@ img {
   display: block;
   width: 100%;
   max-height: 1000px;
-  background-color:#9ddfd3;
-  color: #31326f
+  background-color:whitesmoke;
+  color: #114347
 }
 
 .container-intro {
@@ -31,6 +31,8 @@ img {
 }
 
 .container-inner-block-instance {
+  background-color: #114347;
+  color: whitesmoke;
   margin: 50px 50px 10px 50px;
   width: 400px;
   height: 370px;
@@ -58,11 +60,10 @@ img {
   align-items: center;
   height: 130px;
   width: 130px;
-  border-radius: 50%;
-  background-color: #dbf6e9;
 }
 
 .content-title {
+  color: #FFC93C;
   margin-top: 20px;
   font-size: 30pt;
   line-height: 100%;
@@ -71,13 +72,12 @@ img {
 .content-subtitle {
   margin-top: 20px;
   font-size: 15pt;
-  color: #31326f;
   width: 85%;
 }
 
 .component-button {
-  background-color: #dbf6e9 !important;
-  color: #31326f;
+  background-color: #FFC93C !important;
+  color: #114347;
   font-size: 13pt;
   opacity: 0.9;
   margin-bottom: 40px;

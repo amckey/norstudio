@@ -1,12 +1,12 @@
 .container {
   width: 100%;
   height: 100%;
-  background-color: #dbf6e9;
-  color: #31326f;
+  background-color: #297C86;
 }
 
 .container-title {
-  margin-top: 80px;
+  color: #FFC93C;
+  margin-top: 50px;
   font-size: 30pt;
 }
 
@@ -29,8 +29,8 @@
   display: grid;
   justify-content: center;
   grid-template-columns: 40% 40%;
-  grid-template-rows: 170px 170px 170px;
-  grid-gap: 20px;
+  grid-template-rows: 150px 150px 150px;
+  grid-gap: 30px 60px;
 }
 
 .wrapper-content {
@@ -38,33 +38,22 @@
 }
 
 .box {
+  background-color: #11434752;
   border-radius: 5px;
   padding: 20px;
   transition: 0.25s;
+  border-left: 10px solid #114347;
 }
 
 .box:hover {
-    transform: scale(1.02);
+    transform: scale(1.03);
     transition: 0.25s;
+    border-left: 10px solid #FFC93C;
 }
 
 .box-title {
   display: flex;
   align-items: center;
-}
-
-.box-title-dot {
-  margin-right: 20px;
-  background-color: #31326f;
-  width: 23px;
-  height: 23px;
-  border-radius: 50%;
-  transition: 0.25s;
-}
-
-.box:hover .box-title-dot {
-  transition: 0.25s;
-  background-color: #ffc93c
 }
 
 .box-title-text {

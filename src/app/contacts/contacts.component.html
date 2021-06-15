@@ -21,7 +21,7 @@
         </div>
 
         <div class=container-inner-content>
-          <input class=component-input type="email" placeholder="E-post*" name="entry.1045781291" required>
+          <input class=component-input type="email" placeholder="E-post eller telefon nummer*" name="entry.1045781291" required>
         </div>
 
         <div class=container-inner-content>
@@ -38,11 +38,11 @@
 <div class=modal *ngIf="modalOpeneded" (click)="processClickOutside()">
   <div class=modal-content (mouseleave)="detectModalMouseLeave()" (mouseenter)="detectModalMouseEnter()">
     <div class="close-button-element">
-        <img (click)="refreshComponent()" class=close-button src="./assets/cross.svg">
+        <img (click)="refreshComponent()" class=close-button src="./assets/cross.png">
     </div>
     <div class=close-container>
       <div class=close-container-image>
-        <img class=close-container-image src="./assets/postimage.svg">
+        <img class=close-container-image src="./assets/mail.png">
       </div>
       <div class=close-container-text>
         <div class=close-container-text-title>Takk for din melding!</div>

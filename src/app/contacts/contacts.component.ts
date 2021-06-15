@@ -22,7 +22,7 @@ export class ContactsComponent implements OnInit {
     this.modalOpeneded = !this.modalOpeneded;
     setTimeout(() => {
       this.refreshComponent()
-    }, 1000000);
+    }, 10000);
   }
 
   refreshComponent() {

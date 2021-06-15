@@ -1,8 +1,8 @@
 .container {
   width: 100%;
   padding: 125px 0 100px 0;
-  background-color: #dbf6e9;
-  color: #31326f;
+  background-color: #114347;opacity: 0.9;
+  color: whitesmoke;
   display: flex;
   align-items: center;
 }
@@ -35,7 +35,8 @@
 }
 
 .component-button {
-  background-color: #9ddfd3 !important;
+  background-color: #ffc93c !important;
+  color: #114347;
   margin-top: 30px;
   font-size: 13pt;
   opacity: 0.9;
