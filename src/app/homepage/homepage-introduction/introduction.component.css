@@ -1,6 +1,10 @@
 .container {
   height: 80vh;
-  background-color: #114347;opacity: 0.9;
+  background-color: #114347;
+  background-image: url("../../../../src/assets/homeimage.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
   color: whitesmoke;
 }
 

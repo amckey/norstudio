@@ -1,7 +1,12 @@
 .container {
+  height: 80vh;
   width: 100%;
   padding: 125px 0 100px 0;
-  background-color: #114347;opacity: 0.9;
+  background-color: #114347;
+  background-image: url("../../../../src/assets/homeimage.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
   color: whitesmoke;
   display: flex;
   align-items: center;
@@ -14,16 +19,16 @@
 }
 
 .container-inner-text {
-  max-width: 50%;
+  max-width: 55%;
 }
 
-.container-inner-image {
+/* .container-inner-image {
   margin-right: 100px;
   min-width: 30%;
   min-height: 100px;
   background-color: whitesmoke;
   border-radius: 10px;
-}
+} */
 
 .container-inner-text-title {
   font-size: 40pt;
@@ -31,7 +36,7 @@
 .container-inner-text-subtitle {
   margin-top: 70px;
   font-size: 15pt;
-  line-height: 2em;
+  line-height: 1.7em;
 }
 
 .component-button {
