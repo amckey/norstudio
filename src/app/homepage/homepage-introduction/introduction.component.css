@@ -1,5 +1,5 @@
 .container {
-  height: 80vh;
+  min-height: 700px;
   background-color: #114347;
   background-image: url("../../../../src/assets/homeimage.png");
   background-size: cover;
@@ -41,7 +41,44 @@
   font-size: 18pt;
 }
 
-.component-button:hover {
-  opacity: 0.7;
+@media (hover: hover) {
+    .component-button:hover {
+        opacity: 0.7;
+      }
+  }
+
+@media(max-width: 1025px) {
+    .container {
+        min-height: 550px;
+    }
+    
+    .container-inner-title {
+      padding-top: 18vh;
+      margin: auto 30px;
+    }
+
+    .container-inner-subtitle {
+      margin-left: 30px;
+      margin-right: 30px;
+    }
+}
+ 
+@media(max-width: 768px) {
+    .container-inner-title {
+        font-size: 35pt;
+      }
+
+    .component-button {
+        width: 250px !important;
+    }
 }
 
+@media(max-width: 400px) {
+    .container {
+        min-height: 700px;
+    }
+    
+    .container-inner-title {
+        padding-top: 20vh;
+    }
+}

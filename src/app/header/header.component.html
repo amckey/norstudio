@@ -1,6 +1,6 @@
 <div class="header">
 
-<div class="header-inner"><a routerLink="" style="color: #FFC93C">WEBBYNAVIA</a></div>
+<div class="header-inner"><a routerLink="" style="color: #FFC93C" (click)="sideMenuIsOpened ? toggleSideMenu() : undefined">WEBBYNAVIA</a></div>
 
   <nav class="nav">
 
@@ -25,5 +25,18 @@
       </li>
     </ul>
   </nav>
+
+  <div class=burger-menu-button (click)="toggleSideMenu()">
+    <img src="./assets/menu.png">
+  </div>
+
+  <div class=burger-menu-container *ngIf="sideMenuIsOpened">
+    <ul>
+      <li class=container-link (click)="toggleSideMenu()"><a routerLink="">Hjem</a></li>
+      <li class=container-link (click)="toggleSideMenu()"><a routerLink="services">Tjenester</a></li>
+      <li class=container-link (click)="toggleSideMenu()"><a routerLink="about">Om oss</a></li>
+      <li class=container-link (click)="toggleSideMenu()"><a routerLink="contacts">Kontakt oss</a></li>
+    </ul>
+  </div>
 
 </div>

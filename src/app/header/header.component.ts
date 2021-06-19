@@ -12,4 +12,11 @@ export class HeaderComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  sideMenuIsOpened: boolean = false;
+
+  toggleSideMenu() {
+    this.sideMenuIsOpened = !this.sideMenuIsOpened;
+  }
+
+
 }
