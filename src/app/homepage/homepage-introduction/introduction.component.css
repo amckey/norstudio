@@ -1,5 +1,5 @@
 .container {
-  min-height: 700px;
+  min-height: 650px;
   background-color: #114347;
   background-image: url("../../../../src/assets/homeimage.png");
   background-size: cover;
@@ -75,7 +75,7 @@
 
 @media(max-width: 400px) {
     .container {
-        min-height: 700px;
+        min-height: 620px;
     }
     
     .container-inner-title {

@@ -26,13 +26,13 @@ export class AboutTestimonialsComponent implements OnInit {
 
   reviews: any = [
     {
-      content: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+      content: "Jeg opplevde prosessen som ryddig, strukturert og profesjonell. Kommunikasjonen var bra gjennom hele prosjektet og Webbynavia lyttet til mine ønsker. Sluttresultatet ble over alle forventninger og jeg anbefaler Webbynavia til alle der ute som er på jakt etter en vel strukturert og profesjonell nettside.",
     },
     {
-      content: "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+      content: "Veldig fornøyd med måten Webbynavia behandlet prosjektet. Alt var veldig ryddig. Har ikke mye peiling på nettsider, men de hjalp meg med å bestemme hvordan ting skulle se ut og fungere. Kom med masse gode eksempler. Var trygg helt fra starten av samarbeidet at dette skulle bli kjempe bra. Er veldig profesjonelle i etterkant også, da de hjelper meg med markedsføring og oppbevaring av nettsiden.",
     },
     {
-      content: "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.",
+      content: "Det å kunne stole på en leverandør er noe jeg setter mest pris på. Slik var det med Webbynavia. Først og fremst, veldig profesjonell og hyggelig ledelse som rådet meg gjennom hele prosjektet. Lærte mye nytt i ett område som jeg ikke hadde så god kontroll på fra før. De har levert alt i tide og sluttresultatet ble som lovet. Veldig fornøyd og anbefaler på det sterkeste.",
     },
   ]
 

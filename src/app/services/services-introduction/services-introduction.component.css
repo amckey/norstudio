@@ -1,5 +1,6 @@
 .container {
   width: 100%;
+  min-height: 650px;
   padding: 125px 0 100px 0;
   background-color: #114347;
   background-image: url("../../../../src/assets/homeimage.png");
@@ -50,9 +51,7 @@
     .container-inner-text {
         max-width: 70%;
     }
-}
 
-@media (max-width: 1250px) {
     .container-inner {
         margin-left: 50px;
     }
@@ -60,7 +59,8 @@
 
 @media (max-width: 500px) {
     .container {
-        padding-top: 110px;
+        padding-top: 100px;
+        padding-bottom: 70px;
     }
     
     .container-inner-text-title {
@@ -73,6 +73,6 @@
     }
 
     .container-inner-text {
-        max-width: 85%;
+        max-width: 90%;
     }
 }

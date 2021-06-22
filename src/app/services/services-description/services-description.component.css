@@ -38,12 +38,14 @@
   margin: 50px;
 }
 
-.component-button:hover {
-  opacity: 0.7;
-}
-
 .container-inner-button {
   text-align: center;
+}
+
+@media(hover: hover) {
+    .component-button:hover {
+        opacity: 0.7;
+    }
 }
 
 @media (max-width: 900px) {
@@ -53,5 +55,11 @@
 
     .container-inner-box-text {
         max-width: 70%;
+    }
+}
+
+@media (max-width: 500px) {
+    .container-inner-box-text {
+        font-size: 13pt;
     }
 }

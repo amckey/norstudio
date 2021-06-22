@@ -1,3 +1,7 @@
+img:active {
+    -webkit-tap-highlight-color: transparent;
+}
+
 .container {
   background-color: whitesmoke;
   color: #114347;
@@ -12,6 +16,7 @@
 
 .intro-title {
   font-size: 30pt;
+  margin: auto 20px
 }
 
 .intro-subtitle {
@@ -19,7 +24,7 @@
 }
 
 .review {
-  min-height: 250px;
+  min-height: 200px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -71,6 +76,40 @@
   cursor: pointer;
 }
 
-.slide-button:hover {
-  opacity: 0.7;
+@media(hover: hover) {
+    .slide-button:hover {
+        opacity: 0.7;
+    }
+}
+
+@media (max-width: 850px) {
+    .slide {
+        width: 50%;
+    }
+
+    .review {
+        margin-top: 50px;
+        margin-bottom: 40px;
+    }
+}
+
+@media (max-width: 500px) {
+    .slide {
+        width: 240px;
+        font-size: 13pt;
+    }
+
+    .review {
+        margin-top: 50px;
+        margin-bottom: 40px;
+    }
+
+    .review-block {
+        padding: 15px
+    }
+
+    .intro-title {
+        font-size: 25pt;
+      }
+   
 }

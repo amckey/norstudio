@@ -33,7 +33,7 @@ img {
 .container-inner-block-instance {
   background-color: #114347;
   color: whitesmoke;
-  margin: 50px 50px 10px 50px;
+  margin: 35px 50px 10px 50px;
   width: 400px;
   height: 370px;
   border-radius: 10px;
@@ -68,6 +68,7 @@ img {
   margin-top: 20px;
   font-size: 15pt;
   width: 85%;
+  margin: none !important;
 }
 
 .component-button {

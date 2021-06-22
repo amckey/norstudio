@@ -13,6 +13,7 @@
 
 .intro-title {
   font-size: 30pt;
+  margin: auto 20px;
 }
 
 .intro-subtitle {
@@ -64,10 +65,6 @@
   color: #114347;
 }
 
-.component-button:hover {
-  opacity: 0.7;
-}
-
 .container-successful-message {
   background-color: rgba(20, 22, 44, 0.95);
   padding: 40px 40px 0 40px;
@@ -98,6 +95,7 @@
 }
 
 .modal-content {
+  margin: auto 20px;
   background-color: whitesmoke;
   width: 700px;
   height: 400px;
@@ -116,11 +114,6 @@
 .close-button {
   width: 25px;
   height: 25px;
-}
-
-.close-button:hover {
-  cursor: pointer;
-  opacity: 0.7;
 }
 
 .close-container {
@@ -156,4 +149,27 @@
 .close-container-text-subtitle {
   margin: 20px;
   font-size: 15pt;
+}
+
+@media(hover: hover) {
+    .component-button:hover {
+        opacity: 0.7;
+    }
+
+    .close-button:hover {
+        cursor: pointer;
+        opacity: 0.7;
+      }
+}
+
+@media (max-width: 500px) {
+
+    .modal-content {
+        width: auto;
+        height: 50%;
+    }
+
+    .container-inner-content {
+        width: 35vh;
+    }
 }
