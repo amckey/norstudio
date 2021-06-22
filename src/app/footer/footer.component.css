@@ -27,7 +27,12 @@ a:hover {
 .footer-container-logo {
   margin-left: 100px;
   font-size: 20pt;
-  letter-spacing: 7px;
+}
+
+.footer-container-logo-under-block {
+    display: flex;
+    font-size: 12pt;
+    justify-content: space-around;
 }
 
 .footer-container-text {

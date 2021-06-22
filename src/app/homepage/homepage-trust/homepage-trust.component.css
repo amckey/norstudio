@@ -1,6 +1,5 @@
 .container {
   width: 100%;
-  height: 520px;
   background-color: #297C86;
   background: linear-gradient(0deg, rgba(17,67,71,1), rgba(41,124,134,1) 50%);
   color: whitesmoke;
@@ -30,8 +29,8 @@
 
 .container-inner-boxes {
   display: flex;
-  justify-content: space-between;
-  margin: 50px 160px 0px 160px;
+  justify-content: space-around;
+  margin: 50px 100px 50px 100px;
 }
 
 .container-inner-boxes-block {
@@ -44,11 +43,6 @@
   align-items: center;
   flex-direction: column;
   text-align: center;
-}
-
-.container-inner-boxes-block:hover {
-  transform: scale(1.05);
-  transition: 0.25s;
 }
 
 .box-content {
@@ -73,4 +67,42 @@
   font-size: 15pt;
   line-height: 100%;
   padding: 15px 20px;
+}
+
+@media(hover: hover) {
+    .container-inner-boxes-block:hover {
+        transform: scale(1.05);
+        transition: 0.25s;
+    }      
+}
+
+@media(max-width: 1300px) {
+    .container-inner-boxes {
+        margin: 50px;
+    }
+}
+
+@media(max-width: 1180px) {
+    .container-inner-boxes {
+        flex-wrap: wrap;
+        margin: 50px 100px 50px 100px;
+    }
+
+    .container-inner-boxes-block {
+        margin: 20px;
+    }
+}
+
+@media(max-width: 600px) {
+    .container-inner-text {
+        margin: auto 20px;
+    }
+
+    .container-inner-boxes {
+        margin: 50px auto;
+    }
+}
+
+@media(max-width: 375px) {
+    
 }

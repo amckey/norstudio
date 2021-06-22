@@ -40,11 +40,6 @@ img {
   transition: 0.25s;
 }
 
-.container-inner-block-instance:hover {
-  transform: scale(1.05);
-  transition: 0.25s;
-}
-
 .block-instance-content {
   display: flex;
   justify-content: center;
@@ -81,10 +76,6 @@ img {
   font-size: 13pt;
   opacity: 0.9;
   margin-bottom: 40px;
-}
-
-.component-button:hover {
-  opacity: 0.7;
 }
 
 .smth {
@@ -146,6 +137,19 @@ img {
 }   
 
 @media (max-width: 375px) {
-
+    .container-inner-block-instance  {
+        width: 85%;
+        height: 350px;
+    }
 }
 
+@media (hover: hover) {
+    .component-button:hover {
+        opacity: 0.7;
+      }
+
+      .container-inner-block-instance:hover {
+        transform: scale(1.05);
+        transition: 0.25s;
+      }
+}

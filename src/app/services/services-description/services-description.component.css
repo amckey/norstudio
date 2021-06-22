@@ -27,6 +27,7 @@
   font-size: 15pt;
   line-height: 100%;
   max-width: 50%;
+  margin-top: 20px;
 }
 
 .component-button {
@@ -43,4 +44,14 @@
 
 .container-inner-button {
   text-align: center;
+}
+
+@media (max-width: 900px) {
+    .container-inner-box {
+        height: auto;
+    }
+
+    .container-inner-box-text {
+        max-width: 70%;
+    }
 }
