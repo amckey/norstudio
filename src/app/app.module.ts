@@ -25,6 +25,7 @@ import { ServicesIntroductionComponent } from './services/services-introduction/
 import { ServicesDescriptionComponent } from './services/services-description/services-description.component';
 import { ServicesWhyusComponent } from './services/services-whyus/services-whyus.component';
 import { ServicesHowitworksComponent } from './services/services-howitworks/services-howitworks.component';
+import { PrivacyComponent } from './privacy/privacy.component';
 
 @NgModule({
   declarations: [
@@ -48,6 +49,7 @@ import { ServicesHowitworksComponent } from './services/services-howitworks/serv
     ServicesDescriptionComponent,
     ServicesWhyusComponent,
     ServicesHowitworksComponent,
+    PrivacyComponent,
   ],
   imports: [
     BrowserModule,
@@ -65,6 +67,7 @@ import { ServicesHowitworksComponent } from './services/services-howitworks/serv
       ]},
       {path: 'portfolio', component: PortfolioComponent},
       {path: 'contacts', component: ContactsComponent},
+      {path: 'privacy', component: PrivacyComponent},
       {path: '**', component: HomepageComponent},
        ],
        {anchorScrolling: 'enabled', onSameUrlNavigation: 'reload', scrollPositionRestoration: 'top'})

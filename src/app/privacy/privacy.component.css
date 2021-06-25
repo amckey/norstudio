@@ -1,0 +1,26 @@
+.container {
+  width: 100%;
+  color: #114347;
+  display: flex;
+  justify-content: center;
+}
+
+.container-inner {
+  width: 70%;
+  padding: 100px 0 50px 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.container-inner-block {
+  margin: 25px 0;
+}
+
+.container-inner-block-title {
+  font-size: 18pt;
+}
+
+.container-inner-block-subtitle {
+  padding-top: 15px;
+  font-size: 13pt;
+}
