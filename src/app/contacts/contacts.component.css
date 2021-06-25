@@ -6,7 +6,7 @@
 }
 
 .container-intro {
-  padding-top: 120px;
+  padding-top: 100px;
   text-align: center;
   line-height: 3em;
 }
@@ -21,7 +21,7 @@
 }
 
 .container-inner {
-  margin-top: 40px;
+  margin-top: 20px;
   width: 100%;
   display: flex;
   align-items: center;
@@ -59,7 +59,7 @@
 .component-inner-button {
   display: flex;
   justify-content: center;
-  margin: 50px 0;
+  margin: 40px 0;
 }
 
 .component-button {
@@ -176,7 +176,7 @@
     }
 }
 
-@media screen and (-webkit-min-device-pixel-ratio:0) { 
+@media screen and (-webkit-min-device-pixel-ratio:0) {
     select,
     textarea,
     input {
