@@ -30,7 +30,7 @@
 .container-inner-boxes {
   display: flex;
   justify-content: space-around;
-  margin: 50px 100px 50px 100px;
+  margin: 35px 100px 50px 100px;
 }
 
 .container-inner-boxes-block {
@@ -78,28 +78,41 @@
 
 @media(max-width: 1300px) {
     .container-inner-boxes {
-        margin: 50px;
+        margin: 35px 50px 50px 50px
     }
 }
 
 @media(max-width: 1180px) {
     .container-inner-boxes {
         flex-wrap: wrap;
-        margin: 50px 100px 50px 100px;
+        margin: 35px 100px 50px 100px;
     }
 
     .container-inner-boxes-block {
-        margin: 20px;
+        margin-bottom: 20px;
     }
 }
 
 @media(max-width: 600px) {
+
+    .box-content {
+        padding-top: 30px;
+    }
+
     .container-inner-text {
         margin: auto 20px;
     }
 
     .container-inner-boxes {
-        margin: 50px auto;
+        margin: 35px auto;
+    }
+
+    .container-inner-text-subtitle {
+        font-size: 13pt;
+    }
+
+    .box-content-text {
+        font-size: 13pt;
     }
 }
 

@@ -23,6 +23,7 @@ img {
 
 .intro-subtitle {
   font-size: 15pt;
+  margin-bottom: 0;
 }
 
 .container-inner-blocks {
@@ -99,7 +100,7 @@ img {
 
 @media (max-width: 1200px) {
     .container-inner-block-instance {
-        margin: 50px 30px 10px 30px;
+        margin: 35px 30px 10px 30px;
     }
     
     .content-title {
@@ -116,6 +117,10 @@ img {
         height: 420px;
     }
 
+    .intro-subtitle {
+        font-size: 13pt;
+    }
+
     .content-title {
         font-size: 20pt;
     }
@@ -126,8 +131,7 @@ img {
 }
 
 @media (max-width: 768px) {
-    .container {
-    }
+  
     
     .container-inner-blocks {
         display: flex;

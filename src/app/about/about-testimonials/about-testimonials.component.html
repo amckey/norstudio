@@ -12,7 +12,10 @@
 
     <div class=review-block>
       <ng-container *ngFor="let review of reviews, let i = index">
-        <div *ngIf="currentSlideIndex === i" @carouselAnimation class=slide>{{review.content}}</div>
+        <div *ngIf="currentSlideIndex === i" @carouselAnimation class=slide>
+            {{review.content}}
+            <div class=slide-author>{{review.author}}</div>
+        </div>
       </ng-container>
     </div>
 

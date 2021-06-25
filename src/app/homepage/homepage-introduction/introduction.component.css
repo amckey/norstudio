@@ -68,6 +68,10 @@
         font-size: 35pt;
       }
 
+    .container-inner-subtitle {
+        font-size: 13pt;
+    }
+
     .component-button {
         width: 250px !important;
     }

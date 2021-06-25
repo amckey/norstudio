@@ -6,11 +6,6 @@ a {
   color: whitesmoke;
 }
 
-a:hover {
-  opacity: 0.7;
-  cursor: pointer;
-}
-
 .footer {
   width: 100%;
   height: 150px;
@@ -30,9 +25,9 @@ a:hover {
 }
 
 .footer-container-logo-under-block {
+    margin-top: 5px;
     display: flex;
-    font-size: 12pt;
-    justify-content: space-around;
+    font-size: 13pt;
 }
 
 .footer-container-text {
@@ -49,17 +44,59 @@ a:hover {
 .image {
   width: auto;
   height: 30px;
-  margin-right: 10px;
 }
 
 .text-item-image {
   display: flex;
   align-items: center;
+  width: 40px;
+  height: 40px;
+  margin-right: 5px;
+  justify-content: center;
 }
 
 .text-item-information {
   height: 32px;
   display: flex;
   align-items: center;
-  font-size: 12pt;
+  font-size: 13pt;
+}
+
+@media(hover: hover) {
+    a:hover {
+        opacity: 0.7;
+        cursor: pointer;
+      }
+}
+
+@media (max-width: 1200px) {
+    .footer-container-text {
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 780px) {
+    .footer {
+        height: auto;
+    }
+
+    .footer-container {
+        flex-direction: column-reverse;
+    }
+
+    .footer-container-logo {
+        margin: 15px 0 30px 0;
+    }
+
+    .footer-container-text {
+        margin: 15px 0;
+    }
+
+    .footer-container-text-item {
+        margin: 0;
+    }
+
+    .footer-container-logo-under-block {
+        justify-content: center;
+    }
 }
