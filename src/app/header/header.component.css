@@ -114,7 +114,7 @@ li:last-child {
     height: 40px;
     text-align: center;
     margin: 30px 90px;
-    border-bottom: 1px solid rgb(158, 145, 145);
+    border-bottom: 1px solid #FFC93C;
   }
   
   .burger-menu-container li a {
