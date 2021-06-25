@@ -23,6 +23,6 @@ export class ServicesDescriptionComponent implements OnInit {
   elem: any = '#development'
 
   scrollToDescription() {
-    document.querySelector(this.elem).scrollIntoView({ behavior: 'smooth', block: 'start' });
+    document.querySelector(this.elem).scrollIntoView({ behavior: 'smooth' });
   }
 }
