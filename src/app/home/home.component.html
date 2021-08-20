@@ -1,0 +1,171 @@
+<div class=introduction>
+  <div class=introduction-inner>
+    <div class=introduction-inner-block>
+      <div class=introduction-inner-title>Website development and marketing</div>
+      <div class=introduction-inner-subtitle>We design and build websites and promote them on the internet</div>
+      <button id=button class=introduction-button >Get consultation</button>
+    </div>
+    <div class=introduction-shade>
+      <div class=introduction-back-element>
+        <img src="../../assets/introductionbackel.png" style="height: 350px">
+      </div>
+    </div>
+  </div>
+</div>
+<div class=about-us-inner>
+  <div class=about-us-block>
+    <div class=about-us-block-title>Title</div>
+    <div class=about-us-block-subtitle>Subtitle</div>
+  </div>
+  <div class=about-us-image>
+    <img src="../../assets/aboutusman.png" style="height: 300px;">
+  </div>
+</div>
+<div class=services-inner>
+  <div class=services-image>
+    <img src="../../assets/servicesman.png" style="height: 300px;">
+  </div>
+  <div class=services-block>
+    <div class=services-block-title>Title</div>
+    <div class=services-block-boxes>
+      <div class=services-block-box>
+        <div class=services-block-box-title>Title</div>
+        <div class=services-block-box-subtitle>Subtitle</div>
+        <button id=button class=services-block-box-button>Button</button>
+      </div>
+      <div class=services-block-box>
+        <div class=services-block-box-title>Title</div>
+        <div class=services-block-box-subtitle>Subtitle</div>
+        <button id=button class=services-block-box-button>Button</button>
+      </div>
+      <div></div>
+    </div>
+  </div>
+</div>
+<div class=advantages-inner>
+  <div class=advantages-inner-title>Advantages</div>
+  <div class=advantages-inner-boxes>
+    <div class=advantages-inner-boxes-box>
+      <div class=advantages-inner-boxes-box-head>
+        <div class=advantages-inner-boxes-box-head-title>Title</div>
+        <div class=advantages-inner-boxes-box-head-image></div>
+      </div>
+      <div class=advantages-inner-boxes-box-body>Body</div>
+    </div>
+    <div class=advantages-inner-boxes-box>
+      <div class=advantages-inner-boxes-box-head>
+        <div class=advantages-inner-boxes-box-head-title>Title</div>
+        <div class=advantages-inner-boxes-box-head-image></div>
+      </div>
+      <div class=advantages-inner-boxes-box-body>Body</div>
+    </div>
+    <div class=advantages-inner-boxes-box>
+      <div class=advantages-inner-boxes-box-head>
+        <div class=advantages-inner-boxes-box-head-title>Title</div>
+        <div class=advantages-inner-boxes-box-head-image></div>
+      </div>
+      <div class=advantages-inner-boxes-box-body>Body</div>
+    </div>
+    <div class=advantages-inner-boxes-box>
+      <div class=advantages-inner-boxes-box-head>
+        <div class=advantages-inner-boxes-box-head-title>Title</div>
+        <div class=advantages-inner-boxes-box-head-image></div>
+      </div>
+      <div class=advantages-inner-boxes-box-body>Body</div>
+    </div>
+  </div>
+  <div class=numbers-inner>
+    <div class=numbers-inner-title>Numbers</div>
+    <div class=numbers-inner-boxes>
+      <div class=numbers-inner-box>
+        <div class=numbers-inner-box-image>
+          <div class="radialProgressBar progress-100">
+            <div class="overlay">100</div>
+          </div>
+        </div>
+        <div class=numbers-inner-box-title>
+          Title
+        </div>
+      </div>
+      <div class=numbers-inner-box>
+        <div class=numbers-inner-box-image>
+          <div class="radialProgressBar progress-100">
+            <div class="overlay">100</div>
+          </div>
+        </div>
+        <div class=numbers-inner-box-title>
+          Title
+        </div>
+      </div>
+      <div class=numbers-inner-box>
+        <div class=numbers-inner-box-image>
+          <div class="radialProgressBar progress-100">
+            <div class="overlay">100</div>
+          </div>
+        </div>
+        <div class=numbers-inner-box-title>
+          Title
+        </div>
+      </div>
+      <div class=numbers-inner-box>
+        <div class=numbers-inner-box-image>
+          <div class="radialProgressBar progress-100">
+            <div class="overlay">100</div>
+          </div>
+        </div>
+        <div class=numbers-inner-box-title>
+          Title
+        </div>
+      </div>
+      <div class=numbers-inner-box>
+        <div class=numbers-inner-box-image>
+          <div class="radialProgressBar progress-100">
+            <div class="overlay">100</div>
+          </div>
+        </div>
+        <div class=numbers-inner-box-title>
+          Title
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class=review-inner>
+  <div class=review-inner-title>Reviews</div>
+  <div class="review">
+
+    <div class=review-block-2>
+      <i class="arrow left" (click)="showNextSlide()"></i>
+    </div>
+
+    <div class=review-block>
+      <ng-container *ngFor="let review of reviews, let i = index">
+        <div @carouselAnimation *ngIf="currentSlideIndex === i" class=slide>
+          <div class=slide-author>
+            <div class=slide-author-content>
+              <div class=slide-author-image></div>
+              <div class=slide-author-review>{{review.author}}</div>
+            </div>
+          </div>
+          <div class=slide-content>
+            {{review.content}}
+          </div>
+        </div>
+      </ng-container>
+    </div>
+
+    <div class=review-block-2>
+      <i class="arrow right" (click)="showNextSlide()"></i>
+    </div>
+
+  </div>
+
+  <div class=pagination-dots>
+    <div *ngFor="let review of reviews let i = index;">
+      <div [ngClass]="calculateDotClass(i)"></div>
+    </div>
+  </div>
+</div>
+
+<app-contact-form></app-contact-form>

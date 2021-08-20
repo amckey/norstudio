@@ -20,10 +20,9 @@ export class ContactsComponent implements OnInit {
   submitForm() {
     this.formSubmitted = !this.formSubmitted;
     this.modalOpeneded = !this.modalOpeneded;
-    console.log('yo')
     setTimeout(() => {
       this.refreshComponent()
-    }, 1000000);
+    }, 10000);
   }
 
   refreshComponent() {

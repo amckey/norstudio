@@ -41,8 +41,8 @@ a:active { text-decoration: none; color:whitesmoke }
 }
 
 #button {
-  width: 150px;
-  height: 40px;
+  width: 180px;
+  height: 50px;
   border: none;
   text-decoration: none;
   display: inline-block;
@@ -51,7 +51,7 @@ a:active { text-decoration: none; color:whitesmoke }
   box-shadow: 0 1px 3px rgb(20 50 0 / 15%);
   transform: translateY(0px);
   transition-duration: 0.2s;
-  font-size: 13pt;
+  font-size: 18px;
 }
 
 #button:hover {
