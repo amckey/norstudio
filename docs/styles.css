@@ -15,7 +15,7 @@ body {
   min-height: 100%;
 }
 
-h1, h2, h3, ul, li, a {
+h1, h2, h3, ul, li, a{
   margin: 0;
   padding: 0;
 }

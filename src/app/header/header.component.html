@@ -1,8 +1,20 @@
 <div class="header">
 
-<div class="header-inner"><a routerLink="" (click)="sideMenuIsOpened ? toggleSideMenu() : undefined">WEBBYNAVIA</a></div>
-
+<div class="header-inner">
+  <a routerLink="" (click)="sideMenuIsOpened ? toggleSideMenu() : undefined" class=header-logo>WEBBYNAVIA</a>
   <nav class="nav">
+    <ul>
+      <li>Link</li>
+      <li>Link</li>
+      <li>Link</li>
+    </ul>
+  </nav>
+  <div class=header-language>
+    English
+  </div>
+</div>
+
+
 
    <!--  <ul>
       <li>
@@ -24,7 +36,6 @@
         <a class=contact-button routerLink="contacts">Kontakt oss</a>
       </li>
     </ul> -->
-  </nav>
 
   <div class=burger-menu-button (click)="toggleSideMenu()">
     <div class=menu-image></div>
